@@ -5,5 +5,5 @@ def list(names)
   return arr[0..-2].join(', ') + " and " + arr[-1] if arr.length > 1
 end
 
-# p list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])
+ p list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])
 
